@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Homepage Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #0f0f0f;
+      }
+      p {
+        color: #f1f1f1;
+        font-family: Roboto, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .search-bar {
+        display: block;
+        font-size: 20px;
+        margin-left: 0px;
+      }
+      .thumbnail {
+        width: 320px;
+        height: 180px;
+        border-radius: 12px;
+        display: block;
+      }
+      .profile-picture {
+        display: inline-block;
+        width: 36px;
+        vertical-align: top;
+        margin-top: 12px;
+        margin-right: 12px;
+      }
+      .profile-picture-img {
+        width: 100%;
+        border-radius: 18px;
+      }
+      .video-info {
+        display: inline-block;
+        width: 250px;
+      }
+
+      .video-title {
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
+      .video-author {
+        color: #aaa;
+        height: 18px;
+        width: min-content;
+        display: inline-block;
+      }
+
+      .verified {
+        height: 14px;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .verified-check {
+        padding-top: 3px;
+        height: 12px;
+      }
+      .video-stats {
+        color: #aaa;
+      }
+      .video-preview {
+        width: 320px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search" />
+
+    <div class="video-preview">
+      <div>
+        <img class="thumbnail" src="thumbnails/thumbnail1.webp" />
+      </div>
+      <div>
+        <div class="profile-picture">
+          <img
+            class="profile-picture-img"
+            src="pfps/pfp1.jpg"
+            alt="Skin Spotlight"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Mythmaker Irelia Skin Spotlight - League of Legends
+          </p>
+          <p class="video-author">SkinSpotlights</p>
+          <div class="verified">
+            <img class="verified-check" src="verified-check.png" />
+          </div>
+
+          <p class="video-stats">40K views &bull; 5 hours ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div>
+        <img class="thumbnail" src="thumbnails/thumbnail2.png" />
+      </div>
+      <div>
+        <div class="profile-picture">
+          <img
+            class="profile-picture-img"
+            src="pfps/pfp2.png"
+            alt="Skin Spotlight"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Video number 2</p>
+          <p class="video-author">Smile</p>
+          <div class="verified">
+            <img class="verified-check" src="verified-check.png" />
+          </div>
+          <p class="video-stats">12B views &bull; 2 minutes ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
